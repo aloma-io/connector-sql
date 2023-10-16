@@ -1,0 +1,29 @@
+{
+  "name": "connector",
+  "version": "1.0.0",
+  "description": "",
+  "author": "aloma.io",
+  "license": "Apache-2.0",
+  "connectorId": "clbtxa4dh000001mcdyym0wm1",
+  "scripts": {
+    "start": "node build/index.mjs",
+    "dev": "./node_modules/typescript/bin/tsc --watch",
+    "build": "./node_modules/@aloma.io/integration-sdk/build/cli.mjs build; ./node_modules/typescript/bin/tsc",
+    "test": "./node_modules/mocha/bin/_mocha --recursive",
+    "format": "yarn prettier --write src/",
+    "generate-keys": "node node_modules/@aloma.io/integration-sdk/build/internal/util/jwe/cli.mjs"
+  },
+  "dependencies": {
+    "@aloma.io/integration-sdk": "^3",
+    "knex": "^3",
+    "mysql2": "^3",
+    "pg": "^8",
+    "tedious": "^16"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "mocha": "^10",
+    "prettier": "^3",
+    "typescript": "^5"
+  }
+}
