@@ -107,6 +107,7 @@ export default class Controller extends AbstractController {
 
     const res = await knex.raw(query, values);
 
+    // @ts-ignore
     console.log(res);
 
     return res.rows;
