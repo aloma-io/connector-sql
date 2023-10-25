@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Retrieve version
         run: |
-          echo -n "TAG_NAME=$(git describe --tags)" > .version
+          echo -n "$(git describe --tags)" > .version
         id: version
       - name: Docker meta
         id: meta
