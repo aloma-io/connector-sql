@@ -17,6 +17,10 @@ jobs:
       # Get the repositery's code
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Retrieve version
+        run: |
+          echo "TAG_NAME=$(git describe --tags)" >> $GITHUB_OUTPUT
+        id: version
       - name: Docker meta
         id: meta
         uses: docker/metadata-action@v5
@@ -43,6 +47,9 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build and push
         uses: docker/build-push-action@v5
+        env: 
+          TAG_NAMES: ${{ steps.meta.outputs.tags }}
+          TAG_NAME: ${{ steps.meta.version.TAG_NAME }}
         with:
           context: ./
           file: ./Containerfile
