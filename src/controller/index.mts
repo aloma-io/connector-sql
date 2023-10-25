@@ -43,23 +43,13 @@ export default class Controller extends AbstractController {
   }: {
     query: string;
     values: any[];
-  }): Promise<{ fields: any[]; rows: any[] }> {
+  }): Promise<any> {
     var local = this,
       knex = local.knex;
 
     const res = await knex.raw(query, values);
 
-    const ret: { fields: any[]; rows: any[] } = { fields: [], rows: [] };
-
-    if (res.fields) {
-      ret.fields = res.fields;
-    }
-
-    if (res.rows) {
-      ret.rows = res.rows;
-    }
-
-    return ret;
+    return res;
   }
 
   /**
@@ -77,13 +67,13 @@ export default class Controller extends AbstractController {
   }: {
     query: string;
     values: any[];
-  }): Promise<{ rowCount: number; rows: any[] }> {
+  }): Promise<any> {
     var local = this,
       knex = local.knex;
 
     const res = await knex.raw(query, values);
 
-    return { rowCount: res.rowCount, rows: res.rows };
+    return res;
   }
 
   /**
@@ -101,15 +91,20 @@ export default class Controller extends AbstractController {
   }: {
     query: string;
     values: any[];
-  }): Promise<any[]> {
+  }): Promise<any> {
     var local = this,
       knex = local.knex;
 
     const res = await knex.raw(query, values);
 
-    // @ts-ignore
-    console.log(res);
+    if (Array.isArray(res) && Array.isArray(res[0])) {
+      // mysql
+      return res[0];
+    } else if (res.rows) {
+      // postgres
+      return res.rows;
+    }
 
-    return res.rows;
+    return res;
   }
 }
