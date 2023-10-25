@@ -4,6 +4,7 @@ ENV NODE_ENV production
 
 WORKDIR /connector/
 
+
 COPY ./package.json ./
 COPY ./yarn.lock ./
 COPY ./tsconfig.json ./
