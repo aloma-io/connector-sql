@@ -3,9 +3,9 @@
 
 
 "@aloma.io/integration-sdk@^3":
-  version "3.3.64"
-  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.3.64.tgz#8e7aaa92b7530a06301be13cac3618f444e2b8b1"
-  integrity sha512-uQvwR/QTPG5kulddBl0SdhmoBDqDArU/meqVKQ/6wrBy5ZALSn1FtGrCIAyQ7XPSjmP+AdrV+hf3Z2aSVCGnzg==
+  version "3.3.65"
+  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.3.65.tgz#6d483de7220b556d6afa8bfb9cdeb3de55de14b3"
+  integrity sha512-lZy5leNbJvNGZHhyFbHasIBRfcHTi3ljQQXcDCTq9rymWjsSOiTEum8xtWn7sS03SxZoFzn/AGdfuQ6fGSP97A==
   dependencies:
     "@paralleldrive/cuid2" "^2"
     "@ts-ast-parser/core" "^0.5"
