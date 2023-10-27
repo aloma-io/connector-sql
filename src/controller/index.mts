@@ -1,5 +1,6 @@
 import { AbstractController } from "@aloma.io/integration-sdk";
 import Knex from "knex";
+import { z } from "zod";
 
 export default class Controller extends AbstractController {
   private knex: any;
@@ -13,6 +14,25 @@ export default class Controller extends AbstractController {
       } catch (e) {
         // blank
       }
+    }
+
+    const needed = z.object({
+      type: z.string().min(1),
+      host: z.string().min(1),
+      port: z.string().min(1),
+    });
+
+    try {
+      needed.parse(config);
+    } catch (e: any) {
+      console.log(
+        "configuration error:" +
+          "\n" +
+          e.errors
+            .map((err) => `${err.message}: ${err.path.join("/")}`)
+            .join("\n"),
+      );
+      return;
     }
 
     this.knex = Knex.knex({
