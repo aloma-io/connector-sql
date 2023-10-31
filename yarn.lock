@@ -3,9 +3,9 @@
 
 
 "@aloma.io/integration-sdk@^3":
-  version "3.3.65"
-  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.3.65.tgz#6d483de7220b556d6afa8bfb9cdeb3de55de14b3"
-  integrity sha512-lZy5leNbJvNGZHhyFbHasIBRfcHTi3ljQQXcDCTq9rymWjsSOiTEum8xtWn7sS03SxZoFzn/AGdfuQ6fGSP97A==
+  version "3.3.67"
+  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.3.67.tgz#6518da7eb4a58d7da3263871fbc5d9d58ab04f8b"
+  integrity sha512-d+GUP+qjPA9vgSrIY+f1a3yOwNDw6XKwNvPeGnbYcToxxVvzjZn4gSQLHlXCGMkhcz3kjPIrXogi/dh5Xo4YWw==
   dependencies:
     "@paralleldrive/cuid2" "^2"
     "@ts-ast-parser/core" "^0.5"
@@ -239,14 +239,14 @@
     tslib "^2.6.1"
 
 "@types/node@^16":
-  version "16.18.59"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.59.tgz#4cdbd631be6d9be266a96fb17b5d0d7ad6bbe26c"
-  integrity sha512-PJ1w2cNeKUEdey4LiPra0ZuxZFOGvetswE8qHRriV/sUkL5Al4tTmPV9D2+Y/TPIxTHHgxTfRjZVKWhPw/ORhQ==
+  version "16.18.60"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.60.tgz#0b0f4316906f1bd0e03b640363f67bd4e86958bd"
+  integrity sha512-ZUGPWx5vKfN+G2/yN7pcSNLkIkXEvlwNaJEd4e0ppX7W2S8XAkdc/37hM4OUNJB9sa0p12AOvGvxL4JCPiz9DA==
 
 "@types/node@^18":
-  version "18.18.7"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.18.7.tgz#bb3a7068dc4ba421b6968f2a259298b3a4e129e8"
-  integrity sha512-bw+lEsxis6eqJYW8Ql6+yTqkE6RuFtsQPSe5JxXbqYRFQEER5aJA9a5UH9igqDWm3X4iLHIKOHlnAXLM4mi7uQ==
+  version "18.18.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.18.8.tgz#2b285361f2357c8c8578ec86b5d097c7f464cfd6"
+  integrity sha512-OLGBaaK5V3VRBS1bAkMVP2/W9B+H8meUfl866OrMNQqt7wDgdpWPp5o6gmIc9pB+lIQHSq4ZL8ypeH1vPxcPaQ==
   dependencies:
     undici-types "~5.26.4"
 
@@ -1860,9 +1860,9 @@ proxy-addr@~2.0.7:
     ipaddr.js "1.9.1"
 
 punycode@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.0.tgz#f67fa67c94da8f4d0cfff981aee4118064199b8f"
-  integrity sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.1.tgz#027422e2faec0b25e1549c3e1bd8309b9133b6e5"
+  integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
 
 qs@6.11.0:
   version "6.11.0"
@@ -2190,9 +2190,9 @@ tdigest@^0.1.1:
     bintrees "1.0.2"
 
 tedious@^16:
-  version "16.5.0"
-  resolved "https://registry.yarnpkg.com/tedious/-/tedious-16.5.0.tgz#1ebdf3392052c98dac0f656a2e1a309d25da12f3"
-  integrity sha512-UQdtX+4A1K0+UtFZictpSUMzw90ua0vSBfDQ54yKpwZ9Fr/6ik0Vs5q7E0AuwHtZtg3g2PqPDEKguSdysho8vw==
+  version "16.6.0"
+  resolved "https://registry.yarnpkg.com/tedious/-/tedious-16.6.0.tgz#35dee7b4ea6d94d462da4661b17f0bada195985c"
+  integrity sha512-Gsi/XzWtJ+oyYsoDHSxjV5k/LzZb/3pJseC1NJoCkQ1VJF66rxj7pRLDF6jOFL4F52uSqOhtYTucs3K1sKYB7g==
   dependencies:
     "@azure/identity" "^2.0.4"
     "@azure/keyvault-keys" "^4.4.0"
