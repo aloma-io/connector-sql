@@ -3,13 +3,13 @@
 
 
 "@aloma.io/integration-sdk@^3":
-  version "3.3.71"
-  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.3.71.tgz#09b746645e909ccab6ca42b71dc39a669faf161c"
-  integrity sha512-KPSpfBofjhHm8rcZ9W7PVnwhkamhAQl89/7Mz3J5YCvgAUimosiiX1eGGf3Jdu5eLXpMFF9yyrhSx0W4qWhycA==
+  version "3.3.74"
+  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.3.74.tgz#7e6b761e9f202d6418f5a2b3411d5070a471f1b2"
+  integrity sha512-SVj8qQA5km1ZRu3MdAItBEu3ItaBTxn/ZYiW0JpEq6fkAfwUURN5+PEPzuGtxnlOKDg9+8qhipT3Zf4aXyrYHw==
   dependencies:
     "@paralleldrive/cuid2" "^2"
     "@ts-ast-parser/core" "^0.5"
-    "@types/node" "^16"
+    "@types/node" "^18"
     commander "^11"
     dotenv "*"
     express "^4"
@@ -237,11 +237,6 @@
     globby "^13.2.2"
     package-json-type "^1.0.3"
     tslib "^2.6.1"
-
-"@types/node@^16":
-  version "16.18.61"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.61.tgz#5ea47e3018348bf3bbbe646b396ba5e720310be1"
-  integrity sha512-k0N7BqGhJoJzdh6MuQg1V1ragJiXTh8VUBAZTWjJ9cUq23SG0F0xavOwZbhiP4J3y20xd6jxKx+xNUhkMAi76Q==
 
 "@types/node@^18":
   version "18.18.9"
@@ -1312,9 +1307,9 @@ isarray@^2.0.5:
   integrity sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==
 
 jose@^5:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/jose/-/jose-5.1.0.tgz#b4dcfa037b3b30ad9d64949b51bc6f173cbd61cf"
-  integrity sha512-H+RVqxA6apaJ0rcQYupKYhos7uosAiF42gUcWZiwhICWMphDULFj/CRr1R0tV/JCv9DEeJaSyYYpc9luHHNT4g==
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/jose/-/jose-5.1.1.tgz#d61b923baa6bdeb01040afae8295a084c4b9eb58"
+  integrity sha512-bfB+lNxowY49LfrBO0ITUn93JbUhxUN8I11K6oI5hJu/G6PO6fEUddVLjqdD0cQ9SXIHWXuWh7eJYwZF7Z0N/g==
 
 js-md4@^0.3.2:
   version "0.3.2"
@@ -1834,9 +1829,9 @@ postgres-interval@^1.1.0:
     xtend "^4.0.0"
 
 prettier@^3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.3.tgz#432a51f7ba422d1469096c0fdc28e235db8f9643"
-  integrity sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.1.0.tgz#c6d16474a5f764ea1a4a373c593b779697744d5e"
+  integrity sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==
 
 process@^0.11.10:
   version "0.11.10"
