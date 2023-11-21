@@ -3,9 +3,9 @@
 
 
 "@aloma.io/integration-sdk@^3":
-  version "3.3.75"
-  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.3.75.tgz#22ae9e4160575b06f8f23b477487d36368dfa2c7"
-  integrity sha512-T/AMXuqdbEPux9VKncXl0J4F1YYPPbWz7ezv++3AtUNGIfb1QnIsr/qd+ka1/TJ3Mqt9at6H+5ttxHR6zxvvCw==
+  version "3.3.76"
+  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.3.76.tgz#0b6612f45763ed7d267b7486e6083b885ab305f7"
+  integrity sha512-78Ve2ElEoMHB1VCtiPW7dcaJepGXXnGARqcR1oRdioRkrtdYzbrBXngCulog1OMG/ePaUgGZpIOiNkDz8YPsQw==
   dependencies:
     "@paralleldrive/cuid2" "^2"
     "@ts-ast-parser/core" "^0.5"
@@ -16,6 +16,7 @@
     jose "^5"
     node-fetch "^3"
     prom-client "^15"
+    typescript "^5"
     ws "^8"
     zod "^3"
   optionalDependencies:
