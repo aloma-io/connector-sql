@@ -3,9 +3,9 @@
 
 
 "@aloma.io/integration-sdk@^3":
-  version "3.3.78"
-  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.3.78.tgz#bcaea998e3b9d70ffc456accfc6f1f5a537b26d6"
-  integrity sha512-KsiuHTR4bIRKScu/DqnZ4tHQIe0c9MWH9wcVAIJ5G8yIeL5QMCNWMGFHyHG2RSeggzsDwW+enHhA7PcWy2xAwQ==
+  version "3.3.79"
+  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.3.79.tgz#33ca4d8fe653b8caccc25f7bc5938bb0c7b8fc92"
+  integrity sha512-78GR1TpgOL4M2pwT7y2d/AJDPfs33QTibT+3wOzrvOVf4WWHvKl2I7+N01n6G4tASdamblyGGTRhZ9CvReQW9g==
   dependencies:
     "@paralleldrive/cuid2" "^2"
     "@ts-ast-parser/core" "^0.5"
@@ -2266,9 +2266,9 @@ typed-array-length@^1.0.4:
     is-typed-array "^1.1.9"
 
 typescript@^5:
-  version "5.3.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.3.2.tgz#00d1c7c1c46928c5845c1ee8d0cc2791031d4c43"
-  integrity sha512-6l+RyNy7oAHDfxC4FzSJcz9vnjTKxrLpDG5M2Vu4SHRVNg6xzqZp6LYSR9zjqQTu8DU/f5xwxUdADOkbrIX2gQ==
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.3.3.tgz#b3ce6ba258e72e6305ba66f5c9b452aaee3ffe37"
+  integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"
