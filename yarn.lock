@@ -3,9 +3,9 @@
 
 
 "@aloma.io/integration-sdk@^3":
-  version "3.3.92"
-  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.3.92.tgz#b6d7927b59cbbc4443d855403799c52849555c95"
-  integrity sha512-QWcTvA5YBDKxC0RphahG+Uq9EVVim33Yu5R/mZUNn31jN0O3jRDL9kt+1HiZzcjKofIUbZIOY8iPsLH4ve8gOg==
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.4.0.tgz#baadb3174439cd652abeb9133ffe3da80504c388"
+  integrity sha512-Mu+G3UKl1OYvleoMbBNAoeCXbkjKHIfZEkvRBvy0NHBOlL4gyOd/cX360L8wEBTmLVfXTaV0Q81rDtpalm2MBw==
   dependencies:
     "@paralleldrive/cuid2" "^2"
     "@ts-ast-parser/core" "^0.5"
@@ -1801,9 +1801,9 @@ process@^0.11.10:
   integrity sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==
 
 prom-client@^15:
-  version "15.0.0"
-  resolved "https://registry.yarnpkg.com/prom-client/-/prom-client-15.0.0.tgz#067da874a2aa5d2e21bd5cdba9f24a8178bdab6a"
-  integrity sha512-UocpgIrKyA2TKLVZDSfm8rGkL13C19YrQBAiG3xo3aDFWcHedxRxI3z+cIcucoxpSO0h5lff5iv/SXoxyeopeA==
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/prom-client/-/prom-client-15.1.0.tgz#816a4a2128da169d0471093baeccc6d2f17a4613"
+  integrity sha512-cCD7jLTqyPdjEPBo/Xk4Iu8jxjuZgZJ3e/oET3L+ZwOuap/7Cw3dH/TJSsZKs1TQLZ2IHpIlRAKw82ef06kmMw==
   dependencies:
     "@opentelemetry/api" "^1.4.0"
     tdigest "^0.1.1"
