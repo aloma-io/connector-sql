@@ -3,9 +3,9 @@
 
 
 "@aloma.io/integration-sdk@^3":
-  version "3.4.4"
-  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.4.4.tgz#9514480925703b0338c75ccb786f91dab0cdc2dd"
-  integrity sha512-Dgy7qz8YJKOPzhID57REALb23tQsBY2j8ZGC5w3n06ed9KT525E4zNyyTldEO8tCH8g6MfvmJbQKm3jrHtH6ow==
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.4.5.tgz#90a25caa6577437f49e67d5004dd20056d683035"
+  integrity sha512-nxqEg/lhUyH1MFBDk5G/joqKpmrCYmMElY8eOT7b9mQ6zxllO8kcDcEhrahoxBHM69TGduk4JmX8equqteP55g==
   dependencies:
     "@paralleldrive/cuid2" "^2"
     "@ts-ast-parser/core" "^0.5"
@@ -1274,9 +1274,9 @@ isarray@^2.0.5:
   integrity sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==
 
 jose@^5:
-  version "5.1.3"
-  resolved "https://registry.yarnpkg.com/jose/-/jose-5.1.3.tgz#303959d85c51b5cb14725f930270b72be56abdca"
-  integrity sha512-GPExOkcMsCLBTi1YetY2LmkoY559fss0+0KVa6kOfb2YFe84nAM7Nm/XzuZozah4iHgmBGrCOHL5/cy670SBRw==
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/jose/-/jose-5.2.0.tgz#d0ffd7f7e31253f633eefb190a930cd14a916995"
+  integrity sha512-oW3PCnvyrcm1HMvGTzqjxxfnEs9EoFOFWi2HsEGhlFVOXxTE3K9GKWVMFoFw06yPUqwpvEWic1BmtUZBI/tIjw==
 
 js-md4@^0.3.2:
   version "0.3.2"
