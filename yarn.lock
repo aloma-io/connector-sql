@@ -3,9 +3,9 @@
 
 
 "@aloma.io/integration-sdk@^3":
-  version "3.7.22"
-  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.7.22.tgz#0b3fa841ef37f3d4dd1e78960f6bc44acc1fd376"
-  integrity sha512-6JPVLWP4+hFX9FsXzTFt0g14kHMS/FuZ50csuyXtQQTt45IVYR5Yky+VCk+cagh16O/rRgMCd1uYwtUbxTr1Ew==
+  version "3.7.23"
+  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.7.23.tgz#f458aa814c65d7b9fc2287e6da0c20699cc34866"
+  integrity sha512-V4vs5ZRsQ9FunjcTBtb5aUjjGCrZgOvnlyPMmGSmhNiQM9uaTaqN2TXsMDuDbFhqg2cZtk6I4A60wyMn2YdjOw==
   dependencies:
     "@paralleldrive/cuid2" "^2"
     "@ts-ast-parser/core" "^0.5"
@@ -233,9 +233,9 @@
     tslib "^2.6.1"
 
 "@types/node@*":
-  version "20.12.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.8.tgz#35897bf2bfe3469847ab04634636de09552e8256"
-  integrity sha512-NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==
+  version "20.12.9"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.9.tgz#d7234f2e7839b55fcab5048404aef0195684adff"
+  integrity sha512-o93r47yu04MHumPBCFg0bMPBMNgtMg3jzbhl7e68z50+BMHmRMGDJv13eBlUgOdc9i/uoJXGMGYLtJV4ReTXEg==
   dependencies:
     undici-types "~5.26.4"
 
