@@ -3,9 +3,9 @@
 
 
 "@aloma.io/integration-sdk@^3":
-  version "3.7.31"
-  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.7.31.tgz#6afe81a068a74c8fc0152ef07977a27a3cf15a8d"
-  integrity sha512-WFR2NsIn66oDTJFrTMfdqpqed7gMhHFEc5ihk+z4Oi0TVWQlVP2NJK5hbbolJat44UCcVQSNDT36TmEMce7DuA==
+  version "3.7.38"
+  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.7.38.tgz#e684362fb63accec1dc115573c16a89012f28a82"
+  integrity sha512-x92dWIeL9BlUp91NmDV2EuDL7M9ImILvjm4/4UN2X6jZwdDPSVSlEvWRiJQmqlljkGgYCayPT4eIu2CM7YgJ8A==
   dependencies:
     "@paralleldrive/cuid2" "^2"
     "@ts-ast-parser/core" "^0.5"
@@ -170,9 +170,9 @@
   integrity sha512-Zk6DPDz7e1wPgLoLgAp0349Yay9RvcjPM5We/ehuenDNsz/t9QEFI7tRoHpp/e47I4p20XE3FiDlhKwAo3utDA==
 
 "@azure/msal-node@^2.5.1":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-2.8.0.tgz#ef6e4a76bcd0851f7b1240d94b00fe1f9a52d559"
-  integrity sha512-YtyRGq11LyHn2OdFoFixdRA5woU2cjkT51fbBznka5jDhcmkwERNRhJllL3tyXBaLcvqJDch8OwKUR4CLRlLWg==
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-2.8.1.tgz#aded28d37eea2e7278c9bd44f2016647390f239c"
+  integrity sha512-VcZZM+5VvCWRBTOF7SxMKaxrz+EXjntx2u5AQe7QE06e6FuPJElGBrImgNgCh5QmFaNCfVFO+3qNR7UoFD/Gfw==
   dependencies:
     "@azure/msal-common" "14.10.0"
     jsonwebtoken "^9.0.0"
@@ -233,9 +233,9 @@
     tslib "^2.6.1"
 
 "@types/node@*":
-  version "20.12.11"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.11.tgz#c4ef00d3507000d17690643278a60dc55a9dc9be"
-  integrity sha512-vDg9PZ/zi+Nqp6boSOT7plNuthRugEKixDv5sFTIpkE89MmNtEArAShI4mxuX2+UrLEe9pxC1vm2cjm9YlWbJw==
+  version "20.12.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.12.tgz#7cbecdf902085cec634fdb362172dfe12b8f2050"
+  integrity sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==
   dependencies:
     undici-types "~5.26.4"
 
@@ -247,9 +247,9 @@
     undici-types "~5.26.4"
 
 "@types/readable-stream@^4.0.0":
-  version "4.0.12"
-  resolved "https://registry.yarnpkg.com/@types/readable-stream/-/readable-stream-4.0.12.tgz#9a683715338313a30b3d7f2527e09414098f7c44"
-  integrity sha512-SCaw+bs9o/HCX1eTa3glTcQgW1oPxof49mqP2Qikik3xzTimNv2M4p43BQHhBuf7CwOJdQW0s1SrWU3MZxz6lw==
+  version "4.0.14"
+  resolved "https://registry.yarnpkg.com/@types/readable-stream/-/readable-stream-4.0.14.tgz#5a76a00e1e3dd6ff921ea2b3fac7485c5a492c19"
+  integrity sha512-xZn/AuUbCMShGsqH/ehZtGDwQtbx00M9rZ2ENLe4tOjFZ/JFeWMhEZkk2fEe1jAUqqEAURIkFJ7Az/go8mM1/w==
   dependencies:
     "@types/node" "*"
     safe-buffer "~5.1.1"
