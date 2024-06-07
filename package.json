@@ -18,10 +18,10 @@
     "knex": "^3",
     "mysql2": "^3",
     "pg": "^8",
-    "tedious": "^16"
+    "tedious": "^18"
   },
   "devDependencies": {
-    "@types/node": "^18",
+    "@types/node": "^20",
     "mocha": "^10",
     "prettier": "^3",
     "typescript": "^5"
