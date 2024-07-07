@@ -3,9 +3,9 @@
 
 
 "@aloma.io/integration-sdk@^3":
-  version "3.8.46"
-  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.8.46.tgz#98bd314531d7237a39e3aea43255d79ed3f51339"
-  integrity sha512-mvkpiEGOVFjPT4geOEyNbbtm7Z21RjGZtBBDAqTGCzzm7DVemi3JR3OlqhmqQeSRRrjdH1qA6775NnRnFT/XbA==
+  version "3.8.47"
+  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.8.47.tgz#655112e31175f23b1bdae0b5896dac67b9d0522f"
+  integrity sha512-TXqsI+HkoV071bhbKK/EhC4q5h0PAupzXKRv/TcTZ31TFgqlPGXrPPg2WRYNrvfHL4pUtJpDdtiX46yM3N1DXw==
   dependencies:
     "@paralleldrive/cuid2" "^2"
     "@ts-ast-parser/core" "^0.5"
@@ -233,9 +233,9 @@
     tslib "^2.6.1"
 
 "@types/node@*", "@types/node@>=18", "@types/node@^20":
-  version "20.14.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.9.tgz#12e8e765ab27f8c421a1820c99f5f313a933b420"
-  integrity sha512-06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==
+  version "20.14.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.10.tgz#a1a218290f1b6428682e3af044785e5874db469a"
+  integrity sha512-MdiXf+nDuMvY0gJKxyfZ7/6UFsETO7mGKF54MVD/ekJS6HdFtpZFBgrh6Pseu64XTb2MLyFPlbW6hj8HYRQNOQ==
   dependencies:
     undici-types "~5.26.4"
 
@@ -1751,9 +1751,9 @@ tdigest@^0.1.1:
     bintrees "1.0.2"
 
 tedious@^18:
-  version "18.2.1"
-  resolved "https://registry.yarnpkg.com/tedious/-/tedious-18.2.1.tgz#b382188ba7b5c80a3b126a5c876e82f4ff5e7f09"
-  integrity sha512-DKsTgGBC0ZeZexAd5OObfeKd0Tlx3jx3kNoKImsxfBKdRuV216u9n6Sr+4w6vzn+S4r43XmWAXQwM7UkDkbIEg==
+  version "18.2.3"
+  resolved "https://registry.yarnpkg.com/tedious/-/tedious-18.2.3.tgz#23e45db558271c7e33e78fdec2d9a930b66b78ea"
+  integrity sha512-AMdO1sodcoMU3vqDiU2d+Bdck6LcMAj4s4/fkxWXAgWGVnbZOQKaQrn6f+cRAZpdJhn5b8vX7cOfmB7oKNMUqQ==
   dependencies:
     "@azure/identity" "^4.2.1"
     "@azure/keyvault-keys" "^4.4.0"
