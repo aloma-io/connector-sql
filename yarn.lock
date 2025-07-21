@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@aloma.io/integration-sdk@^3":
-  version "3.8.47"
-  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.8.47.tgz#655112e31175f23b1bdae0b5896dac67b9d0522f"
-  integrity sha512-TXqsI+HkoV071bhbKK/EhC4q5h0PAupzXKRv/TcTZ31TFgqlPGXrPPg2WRYNrvfHL4pUtJpDdtiX46yM3N1DXw==
+"@aloma.io/integration-sdk@^3.8.50":
+  version "3.8.50"
+  resolved "https://registry.yarnpkg.com/@aloma.io/integration-sdk/-/integration-sdk-3.8.50.tgz#c9ba6b6ccf67294c343bf403be742cc5b09394c2"
+  integrity sha512-L+3/rdNFc4olmA1dCof0LpUpdgwuqfHS6eSYRxOqLO9/OXJZoIrs2YebHUOSErGUPOJ+U+R5PvYWm3kveWYubg==
   dependencies:
     "@paralleldrive/cuid2" "^2"
     "@ts-ast-parser/core" "^0.5"

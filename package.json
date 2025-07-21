@@ -14,7 +14,7 @@
     "generate-keys": "node node_modules/@aloma.io/integration-sdk/build/internal/util/jwe/cli.mjs"
   },
   "dependencies": {
-    "@aloma.io/integration-sdk": "^3",
+    "@aloma.io/integration-sdk": "^3.8.50",
     "knex": "^3",
     "mysql2": "^3",
     "pg": "^8",
