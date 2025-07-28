@@ -10,7 +10,7 @@ COPY ./tsconfig.json ./
 COPY ./entrypoint.sh ./
 COPY ./src ./src
 COPY ./logo.png ./logo.png
-COPY ./.version ./.version
+# COPY ./.version ./.version
 
 RUN set -e; npm --no-git-tag-version --allow-same-version version $(cat .version); 
 RUN set -e; addgroup -g 1111 connector; adduser -S -u 1111 -G connector connector
